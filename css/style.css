@@ -1,0 +1,104 @@
+
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(../font/Pixel.ttf);
+}
+
+.blue {
+    color: blue;
+}
+ 
+.collapse {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.gamesantigos {
+    margin-top: 105px;
+}
+
+.games-antigos {
+    background-color: #F1C40F;
+    padding: 15px;
+}
+
+.games-antigos > h3 {
+    font-family: Pixel;
+}
+
+.main-one {
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(../images/bg-gamesantigos.png);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    align-items: center;  
+}
+
+.txt-main {
+    background-color: rgba(0,0,0,0.7);
+    font-family: 'Roboto';
+}
+
+.txt-main p{
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.carrocel {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 40px;
+}
+
+.circle {
+    background-color: red;
+}
+.consoles {
+    text-align: center;
+}
+
+.consoles img {
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+.consoles h2 {
+    color:  #f1c40f;
+}
+
+.consoles p {
+    color: rgb(156, 156, 233);
+}
+
+.placa {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.cf {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item, .carousel-item > img {
+    height: 90vh;
+}
+
+.img-top {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #mainSlider .carousel-inner, #mainSlider .carousel-item, .carousel-item > img {
+        height: 50vh;
+    }
+}
